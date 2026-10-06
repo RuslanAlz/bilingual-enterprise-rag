@@ -112,7 +112,7 @@ class BilingualRAG:
 
         ranked_indices = np.argsort(scores)[-top_k:][::-1]
         top_chunks = [self.chunks[i] for i in ranked_indices]
-        return topchunks := top_chunks, scores[ranked_indices]
+        return top_chunks, scores[ranked_indices]
 
     def answer_query(self, user_query: str, score_threshold: float = 0.65, language_target: str = "ru") -> str:
         """Retrieves grounded context and queries Gemini model."""
