@@ -1,0 +1,21 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and GCP credentials
+.env
+*credentials*.json
+*service_account*.json
+*.key
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

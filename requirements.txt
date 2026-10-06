@@ -1,0 +1,5 @@
+google-cloud-aiplatform>=1.38.0
+vertexai
+docling
+numpy
+python-dotenv
