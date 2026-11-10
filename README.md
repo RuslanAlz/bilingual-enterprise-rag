@@ -4,6 +4,8 @@ A retrieval-augmented generation (RAG) assistant designed for corporate internal
 
 The pipeline combines document conversion via IBM Docling, dialect-specific character normalization, dense vector retrieval on Google Cloud Vertex AI, and grounded response generation via Gemini 2.5 Flash.
 
+> **Note:** `Document/Daxili_Reglament_FAQ.pdf` is a synthetic demo document generated with ReportLab. "Caspian Nexus Business Group" is a fictional company, and the "internal use" marking is part of the mock-up. No real corporate data is included.
+
 ---
 
 ## Architecture Overview
